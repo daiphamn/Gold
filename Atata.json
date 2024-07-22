@@ -1,0 +1,18 @@
+{
+  "Browser": "firefox", // Giá trị: 'chrome' or 'firefox'
+  "Chrome": {
+    "BinaryLocation": "", // "C:\\Users\\.gologin\\browser\\orbita-browser-125\\chrome.exe",
+    "ProfilePath": "" // "C:\\Users\\.gologin\\gologin-cached-profiles\\669430eac8969a828178862a\\Default"
+  },
+  "RunByApiLevel": true,
+  "EnableNopeCHAExtension": false,
+  "TwoCaptchaApiKey": "1eafde02abe1e860338e1e3fb8a97535",
+  "AntiCaptchaApiKey": "31abc7cfbc09101aa1903367e4d92708",
+  "CapSolverApiKey": "CAP-F72BA03E2D76DEFA99F316DBADE187A0",
+  "NopeCHAApiKey": "0xmuargrj6d9gtbr", // "j32p3fg58n6u0ndv",
+  "DataFile": "Agribank.csv",
+  "TreoMay": true, // `true` thì sẽ treo máy để run SJC mỗi 15p chạy đăng ký 1 lần, nếu `false` thì sẽ liên tục đăng nhập và đăng ký SJC đến khi thành công hoặc kết thúc 1000 lần thử
+  "ThoiGianDoiDangKyThanhCongSJC": 6, // Điền theo giây -- Sau khi click `Đăng ký` sẽ đợi 3s này đến khi màn hình đăng ký thành công hiển thị. Nếu không sẽ thử lại
+  "ThoiGianLapLaiDangKyAgribank": 3, // Nếu TreoMay = true, mỗi phút sẽ đăng ký một lần cho SJC trong vòng 3 tiếng đồng hồ. Thay đổi biến này sẽ thay đổi thời gian giờ lặp lại.
+  "ThoiGianDoiDangKyThanhCongAgribank": 3 // Điền theo giây -- Sau khi click `Đăng ký` sẽ đợi 2 lần để màn hình đăng ký thành công xuất hiện, nghĩa là default đợi 2*3s = 6s. Nếu không sẽ thử lại
+}
